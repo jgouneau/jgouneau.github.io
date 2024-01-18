@@ -10,8 +10,8 @@ first_name: Joceran
 last_name: Gouneau
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -35,12 +35,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Computer Science Engineering School
+    - course: Engineer in Computer Science and Applied Mathematics
       institution: ENSEEIHT, Toulouse
-      year: 2019 - 2023
+      year: 2023
     - course: Classe Préparatoire aux Grandes Écoles
       institution: Lycée Carnot, Dijon
-      year: 2017 - 2019
+      year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -65,6 +65,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/joceran-gouneau-05103b1b1/
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/joceran.g/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.

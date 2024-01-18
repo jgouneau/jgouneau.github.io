@@ -77,17 +77,33 @@ sections:
   #         description: Taught electronic engineering and researched semiconductor physics.
   #   design:
   #     columns: '2'
-  - block: portfolio
+  - block: collection
     id: projects
     content:
-      title: Projects
+      title: Recent Projects
       filters:
         folders:
           - project
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Contract
+          tag: contract
+        - name: Internship
+          tag: internship
+        - name: School
+          tag: school
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
+      columns: '2'
+      view: card
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: collection
@@ -116,5 +132,68 @@ sections:
     design:
       # Choose a layout view
       view: compact
+      columns: '2'
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      subtitle:
+      text:
+      # Contact (add or remove contact options as necessary)
+      email: joceran.g@gmail.com
+      phone: (+33) 7 80 31 16 26
+      # appointment_url: 'https://calendly.com'
+      address:
+        street: 1763 Route de Marly
+        city: Cressy-sur-Somme
+        region:
+        postcode: '71760'
+        country: France
+        country_code: FR
+      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      # office_hours:
+      #   - 'Monday 10:00 to 13:00'
+      #   - 'Wednesday 09:00 to 10:00'
+      # # Choose a map provider in `params.yaml` to show a map from these coordinates
+      # coordinates:
+      #   latitude: '37.4275'
+      #   longitude: '-122.1697'  
+      contact_links:
+        - icon: linkedin
+          icon_pack: fab
+          name: joceran-gouneau
+          link: https://www.linkedin.com/in/joceran-gouneau-05103b1b1/
+        - icon: instagram
+          icon_pack: fab
+          name: joceran.g
+          link: https://www.instagram.com/joceran.g/
+      # Automatically link email and phone or display as text?
+      autolink: true
+    design:
       columns: '2'
 ---
