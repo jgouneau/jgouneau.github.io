@@ -17,7 +17,8 @@ last_name: Gouneau
 superuser: true
 
 # Role/position/tagline
-role: TODO
+role:
+  CS Engineering Graduate - Listening for opportunities
 
 # Organizations/Affiliations to show in About widget
 # organizations:
@@ -30,7 +31,10 @@ role: TODO
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - TODO
+  - Optimization
+  - Physics
+  - Video Games
+  - Music
 
 # Education to show in About widget
 education:
