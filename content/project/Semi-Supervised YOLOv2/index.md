@@ -25,7 +25,7 @@ links:
 - name: Colab Notebook
   url: https://drive.google.com/file/d/1eZ0xv8UOvgR76BYIBrzd3xzVTPF6X2YX/view?usp=sharing
 
-url_code: "https://github.com/minesweeter/YOLOv2"
+url_code: "https://github.com/jgouneau/YOLOv2"
 url_pdf: ""
 url_slides: "TODO"
 url_video: ""

@@ -65,7 +65,7 @@ social:
   #   link: https://scholar.google.co.uk/
   - icon: github
     icon_pack: fab
-    link: https://github.com/minesweeter
+    link: https://github.com/jgouneau
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/joceran-gouneau-05103b1b1/
