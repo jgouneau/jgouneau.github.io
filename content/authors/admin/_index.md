@@ -26,7 +26,7 @@ role:
 #     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-# bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: 
 
 # Interests to show in About widget
 interests:
@@ -83,5 +83,5 @@ social:
 highlight_name: true
 ---
 
-TODO
+Newly graduated CS engineer, I tend to specialize myself in Artificial Intelligence, Multimedia and Simulation. I am currently looking for a PhD or a R&D position in these fields.
 {style="text-align: justify;"}
