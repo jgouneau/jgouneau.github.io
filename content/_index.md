@@ -77,7 +77,7 @@ sections:
   #         description: Taught electronic engineering and researched semiconductor physics.
   #   design:
   #     columns: '2'
-  - block: collection
+  - block: portfolio
     id: projects
     content:
       title: Recent Projects
@@ -102,7 +102,7 @@ sections:
           tag: school
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: '1'
       view: card
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
@@ -132,7 +132,7 @@ sections:
     design:
       # Choose a layout view
       view: compact
-      columns: '2'
+      columns: '1'
   # - block: collection
   #   id: featured
   #   content:
