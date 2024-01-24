@@ -42,7 +42,7 @@ slides: ""
 This project was carried out during an internship with IRIT, Toulouse, with Axel Carlier as tutor. 
 
 {{% callout warning %}}
-The code supplied is only an untested python scripts version of the Google Colab Notebook.
+The code provided is only an untested python scripts version of the Google Colab Notebook.
 {{% /callout %}}
 
 ## YOLOv2
@@ -95,7 +95,7 @@ l_{ij} = &\lambda_{\textrm{coord}}  \mathbb{1}_{ij}^{\textrm{obj}} \left[ \left(
 \end{align}
 $$
 {{< /math >}}
-where {{< math >}}$ \hspace{1em} \mathbb{1}_{ij}^{\textrm{obj}} = 1 \hspace{1em} ${{< /math >}} for all labeled and unlabeled boxes that contain an object, and {{< math >}}$ \hspace{1em} \mathbb{1}_{ij}^{\textrm{noobj}} = 1 \hspace{1em} ${{< /math >}} for all labeled and unlabeled boxes that does not contain an object and all unlabeled boxes for which the teacher has a confidence under a certain threshold.
+where {{< math >}}$ \hspace{1em} \mathbb{1}_{ij}^{\textrm{obj}} = 1 \hspace{1em} ${{< /math >}} for all labeled and unlabeled boxes that contain an object, and {{< math >}}$ \hspace{1em} \mathbb{1}_{ij}^{\textrm{noobj}} = 1 \hspace{1em} ${{< /math >}} for all labeled and unlabeled boxes that does not contain an object and all unlabeled boxes for which the teacher has a confidence below a certain threshold.
 
 ### Results
 I obtained the following results :
