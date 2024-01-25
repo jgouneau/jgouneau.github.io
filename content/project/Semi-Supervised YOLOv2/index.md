@@ -39,7 +39,7 @@ slides: ""
 ---
 
 ## Summary
-This project was carried out during an internship with IRIT, Toulouse, with Axel Carlier as tutor. 
+This project was carried out during an internship at [IRIT](https://www.irit.fr/en/home/), Toulouse, with Axel Carlier as tutor. 
 
 {{% callout warning %}}
 The code provided is only an untested python scripts version of the Google Colab Notebook.
@@ -108,5 +108,5 @@ I obtained the following results :
 Showing proof of concept that the student performs better than the teacher, but also that using the student to train a new student (`Student²` here) does not seem to make any improvement.
 
 
-[^1]: Joseph Redmon, Ali Farhadi, "YOLO9000: Better, Faster, Stronger," 2016.
-[^2]: Kihyuk Sohn et al, "A Simple Semi-Supervised Learning Framework for Object Detection," 2020.
+[^1]: Joseph Redmon, Ali Farhadi, "YOLO9000: Better, Faster, Stronger", 2016.
+[^2]: Kihyuk Sohn, et al, "A Simple Semi-Supervised Learning Framework for Object Detection", 2020.
