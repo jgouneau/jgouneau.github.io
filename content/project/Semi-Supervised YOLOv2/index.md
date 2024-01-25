@@ -108,5 +108,5 @@ I obtained the following results :
 Showing proof of concept that the student performs better than the teacher, but also that using the student to train a new student (`Student²` here) does not seem to make any improvement.
 
 
-[^1]: Joseph Redmon, Ali Farhadi, "YOLO9000: Better, Faster, Stronger", 2016.
-[^2]: Kihyuk Sohn, et al, "A Simple Semi-Supervised Learning Framework for Object Detection", 2020.
+[^1]: J. Redmon and A. Farhadi, "YOLO9000: Better, Faster, Stronger," _2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, Honolulu, HI, USA, 2017, pp. 6517-6525, https://doi.org/10.1109/CVPR.2017.690.
+[^2]: Sohn, K., Zhang, Z., Li, C., Zhang, H., Lee, C., & Pfister, T. (2020). A Simple Semi-Supervised Learning Framework for Object Detection. https://arxiv.org/abs/2005.04757.
