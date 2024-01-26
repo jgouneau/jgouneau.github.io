@@ -42,12 +42,12 @@ slides: ""
 
 ## Summary
 This work was led during my last year of engineering studies' 6 months internship at [I²R](https://www.a-star.edu.sg/i2r) (within [A*STAR](https://www.a-star.edu.sg/)), Singapore, under the supervision of Lai Xing Ng.
-I studied the state of the art of action prediction on egocentric (1st person POV) videos, to then take the [Short Term Object Interaction Anticipation Challenge](https://eval.ai/web/challenges/challenge-page/1623/overview) from the dataset and benchamrk suite [Ego4D](https://ego4d-data.org/). I Implemented InternVideo's solution[^1] using a Visual Transformer for video features extraction and a multimodal Transformer instead the initial ROI Pooling operation for Verb/Time To Contact (TTC) features extraction, achieving 3rd place on the [public leaderboard](https://eval.ai/web/challenges/challenge-page/1623/leaderboard/3910) with the following metrics (not publicly posted):
+I studied the state of the art of action prediction on egocentric (1st person POV) videos, to then take the [Short Term Object Interaction Anticipation Challenge](https://eval.ai/web/challenges/challenge-page/1623/overview) from the dataset and benchamrk suite [Ego4D](https://ego4d-data.org/). I implemented InternVideo's solution[^1] using a Visual Transformer for video features extraction and a multimodal Transformer instead the initial ROI Pooling operation for Verb/Time To Contact (TTC) features extraction, achieving 3rd place on the [public leaderboard](https://eval.ai/web/challenges/challenge-page/1623/leaderboard/3910) with the following metrics (not publicly posted):
 
 | mAP | Noun  | Noun_Verb | TTC  | Overall |
 | --- | ----- | --------- | ---- | ------- |
 |     | 26.15 | 11.25     | 9.22 | 4.75    | 
 
-I performed this work with an unexpected additional 2 months of remote setup from France because of a delay in the work pass delivery from Singapore -- happening after a first month in remote expected for the theoretical preliminaries -- and during which I managed to adapt practical tasks to the setup. 
+I performed this work with an unexpected additional 2 months of remote setup from France because of a delay in the work pass delivery from Singapore -- happening after an expected first month in remote for the theoretical preliminaries -- and during which I managed to adapt practical tasks to the setup. 
 
-[^1]: Guo Chen, et al, "InternVideo-Ego4D: A Pack of Champion Solutions to Ego4D Challenges", 2022.
+[^1]: Grauman, Kristen et al. “Ego4D: Around the World in 3,000 Hours of Egocentric Video.” _2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)_ (2021): 18973-18990. https://arxiv.org/abs/2110.07058.

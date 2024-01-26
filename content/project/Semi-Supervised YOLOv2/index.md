@@ -46,16 +46,24 @@ The code provided is only an untested python scripts version of the Google Colab
 {{% /callout %}}
 
 ## YOLOv2
-The fisrt part of this project was having a functional and trainable model for image detection based on YOLOv2 [^1]. This was done by extracting and adapting code snippets from an existing implementation to a Jupyter Notebook.
+The fisrt part of this project was about obtaining a functional and trainable model for image detection based on YOLOv2 [^1]. This was done by extracting and adapting code snippets from an existing implementation to a Jupyter Notebook.
 
 ### Results
 
-I obtained the following quantitative results :
+I obtained, on the WildLife dataset, the following quantitative results :
 
-|                | YOLOv2 (30 epochs) |
-| -------------- | ------------------ | 
-| training mAP   | 0.73               | 
-| validation mAP | 0.65               | 
+|                |              | YOLOv2 (30 epochs) |
+| -------------- | ------------ | ------------------ |
+| validation mAP |              | 0.65               |
+|                | buffalo mAP  | 0.59               |
+|                | elephant mAP | 0.59               |
+|                | rhino mAP    | 0.77               |
+|                | zebra mAP    | 0.64               |
+| training mAP   |              | 0.73               |
+|                | buffalo mAP  | 0.85               |
+|                | elephant mAP | 0.59               |
+|                | rhino mAP    | 0.89               |
+|                | zebra mAP    | 0.61               |
 
 And qualitative results :
 ![2 zebras well detected](project/yolov2/yolo_qualitative_1.png "")
@@ -64,7 +72,7 @@ And qualitative results :
 
 ## Semi-supervised Learning for Image Detection
 
-![The teacher-student semi-supervised training process](project/yolov2/semi-supervised_training.png "The teacher-student semi-supervised training process")
+![The teacher-student semi-supervised training process](project/yolov2/semi-supervised_training.png "The teacher-student semi-supervised training process.")
 
 The second part of this project was the implementation of a semi-supervised training for object detection [^2] on this functional model.
 This affected the loss of the model ; initially YOLOv2 has the following loss :
