@@ -87,6 +87,6 @@ Ensemble prediction enables the estimation of the epistemic component of the unc
 ### Results
 
 ![ROC curve on the test set](project/deephyper/roc_curve_test.png "The ROC curve on the test set of the baseline model, best model, and best ensemble of models.")
-The most notable result of this sub-project is the improvement of the ROC curve of the detector from the baseline configurtion to the best model and best ensemble of models.
+The most notable result of this sub-project is the improvement of the ROC curve of the detector from the baseline configuration to the best model and best ensemble of models.
 
 [^1]: Kates-Harbeck, J., Svyatkovskiy, A. & Tang, W. Predicting disruptive instabilities in controlled fusion plasmas through deep learning. _Nature_ **568**, 526–531 (2019). https://doi.org/10.1038/s41586-019-1116-4
