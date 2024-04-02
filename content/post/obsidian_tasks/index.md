@@ -28,3 +28,17 @@ projects: []
 ---
 
 > Work in progress
+
+I use *Obsidian* for my **knowledge management** as a *Zettlekasten*, and for **project management** using the *GTD method*, all of it organized in a *PARA* like structure. I can connect this system to academic reading and writing using plug-ins related to *Zotero*.
+
+Key Points :
+- The PARA method - *the big picture* : https://fortelabs.com/blog/para/
+- Getting Things Done (GTD) - *managing the details* : https://hamberg.no/gtd
+- An Obsidian introduction - *the tool* : https://www.youtube.com/watch?v=MYJsGksojms
+- The Zettlekasten - *the knowledge core* : https://zettelkasten.de/overview/
+- Building a Second Brain - *the illustrated summup* : https://maggieappleton.com/basb
+- Connecting Zotero to Obsidian notes - *an example of academic application* : https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd
+
+Links Pools :
+- Organization : https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Knowledge+Management
+- Academic writing : https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Academic+Writing
